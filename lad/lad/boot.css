@@ -1,0 +1,38 @@
+*{      background-color: wheat;
+        font-family: fantasy;
+        margin: 0px 0px 0px 0px;
+}
+
+h4{	color:#5512b9cc;
+}
+        
+h2{	color:#010401;
+}
+.col-lg-4{
+        background-color: rebeccapurple;
+        border: 1px solid aquamarine;
+        background-image: linear-gradient(rgb(255, 255, 255));
+        text-align: center;
+        float: left;
+        padding: 40px;
+        font-size: 20px;
+        font-family: fantasy;
+}
+.img{
+            border: 1px solid rgba(128, 128, 128, 0.511);
+            text-align: center;
+            float: left;
+           
+    }
+.btn{
+        border: 1px solid rgba(128, 128, 128, 0.511);
+        text-align: center;
+    }
+.btnn1{ 
+        background-color: aqua;
+        padding: 120px;
+}
+.btnn2{
+        background-color: gray;
+        padding: 120px ;
+}
