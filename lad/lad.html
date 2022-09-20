@@ -7,14 +7,17 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 	</head>
 	<body>
+		<script src="main.js"></script>
 		<h4>LAD</h4>
-
 		<h2> <center> BIEU DO DU BAO THOI TIET  </center></h2>
-
+		
 			<div class="row">
-				<div class="col-lg-4"> POLICE <br> 1000</div>
-				<div class="col-lg-4"> TEMPURATURE <br> 1000</div>
-				<div class="col-lg-4"> HUMIDITY <br> 1111</div><br>
+				<div class="col-lg-4" id="col1">
+					 POLICE <br>
+					<input id="box1" onchange="doimau1()" style="text-align: center">
+				</div>
+				<div class="col-lg-4"> TEMPURATURE <br> </div>
+				<div class="col-lg-4"> HUMIDITY <br> </div><br>
 			</div>
 		<h3><center> GALLERY IMAGE </center></h3>
         <div class="row">
@@ -22,13 +25,15 @@
 			 	<img src="download.png" alt="Biểu đồ">
 			</div>
 			<div class="col-lg-4">
-				<div class="btnn1">button1<br>
-					<div class="btn btn-primary">ON</div>
-					<div class="btn btn-primary">OFF</div>
+				<div class="btnn1" >button1<br>
+					<div class="btn btn-primary" id="nut1"  onclick="doimau2()" ondblclick="doimau3()">ON</div>
+					<div class="btn btn-primary" id="nut2">OFF</div>
 				</div> <br>
 				<div class="btnn2">button2<br>
-					<div class="btn btn-primary">ON</div>
-					<div class="btn btn-primary">OFF</div>
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider round"></span>
+					  </label>
 				</div>
 			</div>
 		</div>
