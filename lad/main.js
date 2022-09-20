@@ -2,7 +2,7 @@
     const x = document.getElementById("box1").value
     if (x<20) {
         col1.style.background='blue'
-    }else if(x<20){
+    }else if(x<30){
         col1.style.background='back'
     }else{
         col1.style.background='red'
@@ -10,15 +10,12 @@
     }
 }
  function doimau2(){
-    var y= document.getElementById("nut1").style.background = 'red'
-    var z= document.getElementById("nut2").style.background = 'blue'
-    if (condition) {
-        
-    } else {
-        
-    }
+     document.getElementById("nut1").style.background = 'red'
     
  }
  function doimau3(){
-    var y= document.getElementById("nut1").style.background = 'black'
+     document.getElementById("nut1").style.background ='blue'
+ }
+ function resetMyForm(){
+    document.getElementById("nut2").reset()
  }
