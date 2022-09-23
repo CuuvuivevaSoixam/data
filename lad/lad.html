@@ -10,24 +10,36 @@
 		<script src="main.js"></script>
 		<h4>LAD</h4>
 		<h2> <center> BIEU DO DU BAO THOI TIET  </center></h2>
+		<p id="demo"></p>
 		
-			<div class="row">
+		<div class="row">
 				<div class="col-lg-4" id="col1">
 					 POLICE <br>
-					<input id="box1" onchange="doimau1()" style="text-align: center">
+					<p  id="box1" onchange="doimau1()" style="text-align: center"></p>
 				</div>
 				<div class="col-lg-4"> TEMPURATURE <br> </div>
 				<div class="col-lg-4"> HUMIDITY <br> </div><br>
+		</div>
+		<div class="row">
+			<div class="col-lg-8">
+				<figure class="highcharts-figure">
+					<div id="container"></div>
+					<p class="highcharts-description">
+					</p>
+				</figure>
+				<script src="https://code.highcharts.com/highcharts.js"></script>
+				<script src="https://code.highcharts.com/modules/series-label.js"></script>
+				<script src="https://code.highcharts.com/modules/exporting.js"></script>
+				<script src="https://code.highcharts.com/modules/export-data.js"></script>
+				<script src="https://code.highcharts.com/modules/accessibility.js"></script>
 			</div>
-		<h3><center> GALLERY IMAGE </center></h3>
-        <div class="row">
-        	<div class="col-lg-8 img,">
-			 	<img src="download.png" alt="Biểu đồ">
-			</div>
+
 			<div class="col-lg-4">
-				<div class="btnn1" id="nutall" onreset="alert" >button1<br>
-					<div class="btn btn-primary" id="nut1"  onclick="doimau2()" ondblclick="doimau3()">ON</div>
-					<div class="btn btn-primary" id="nut2" onclick="resetMyForm()">OFF</div>
+				<div class="btnn1" id="nutall" >button1<br>
+					<div class="btn btn-primary" id="nut1"  onclick="doimau2()" >ON</div>
+					
+					<div class="btn btn-primary" id="nut2"  onclick="doimau3()" onreset="myFunction()" >OFF</div>
+					
 				</div> <br>
 				<div class="btnn2">button2<br>
 					<label class="switch">
