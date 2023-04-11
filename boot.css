@@ -12,8 +12,8 @@ h4{	color:#5512b9cc;
 h2{	color:#010401;
 }
 .col-lg-4{
-        background-color: rebeccapurple;
-        border: 1px solid aquamarine;
+        background-color: rgb(188, 129, 248);
+        border: 1px solid rgb(184, 247, 226);
         color: rgb(39, 36, 36);
         text-align: center;
         float: left;
@@ -27,7 +27,7 @@ h2{	color:#010401;
         text-align: center;
     }
 .btnn1{ 
-        background-color: aqua;
+        background-color: rgb(49, 49, 252);
         padding: 80px;
         color: black;
         
