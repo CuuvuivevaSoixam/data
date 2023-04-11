@@ -7,7 +7,7 @@ setInterval(function(){
     let z = Math.floor(Math.random()*100)
     
     function fsPolice() {
-        document.getElementById("text1").innerHTML = x + " chốt"
+        document.getElementById("text1").innerHTML = x + " %"
         if( x < 10){
             document.getElementById("col1").style.backgroundColor = 'coral'
         }
@@ -58,7 +58,7 @@ bieuDo()
                       
     Highcharts.chart('container', {
         title: {
-            text: 'Pikachu , Tempurature and Humidity in HN'
+            text: 'Oxi , Tempurature and Humidity in HN'
         },                              
         yAxis: {
             min:0,
