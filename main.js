@@ -104,21 +104,21 @@ bieuDo()
             }
         ],
                         
-        // responsive: {
-        //     rules: [{
-        //         condition: {
-        //             maxWidth: 100,
-        //             minWidth:0
-        //         },
-        //         chartOptions: {
-        //             legend: {
-        //                 layout: 'horizontal',
-        //                 align: 'center',
-        //                 verticalAlign: 'bottom'
-        //             }
-        //         }
-        //     }]
-        // }  
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 100,
+                    minWidth:0
+                },
+                chartOptions: {
+                    legend: {
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom'
+                    }
+                }
+            }]
+        }  
 
     });
 
